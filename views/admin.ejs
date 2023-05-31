@@ -1,0 +1,97 @@
+<%-  include('layouts/header') %>
+<body class="#212121 grey darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 "></div>
+            <div class="col s12 m4 l12">
+                <nav class="black">
+                    <div class="nav-wrapper">
+                      <a href="/" class="brand-logo"><img src="/img/logo.jpg" width="250" height="65" alt=""></a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/addgame">Add game</a></li>
+                        <li><a href="/blogadmin">Blog</a></li>
+                        <li><a href="/logout">Logout</a></li>
+                        <li><input type="text" id="search-box" onkeyup="sendData(this)" placeholder="Search here"></li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+                  
+                <h2>Manage Games</h2>
+                <div id="searchResults">
+<% if(allgames !=''){ %> 
+<% allgames.forEach((row,index)=>{ %> 
+  <div class="col s12 m6">
+  <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src="<%= row.gameimage %> " height="200">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4"><%= row.name %> <i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <ul class="collection">
+        <li class="collection-item">Edit game<a href="/edit/<%=row._id %> "><i class="material-icons">edit</i>  </a></li>
+        <li class="collection-item">Delete<a href="/delete/<%=row._id %> "><i class="material-icons">delete</i> </a></li>
+
+      </ul>
+    </div>
+  </div> 
+</div>  
+
+  <% }); %> 
+  <% }else{ %>
+    
+    
+           <% } %>    
+
+              </div>
+            </div>
+              <div class="col s12 m4 "></div>
+            
+        </div>
+      
+    </div>
+  </body>
+  <script>
+    function sendData(e){
+      const searchResults=document.getElementById('searchResults');
+      //searchResults.innerHTML='<p>Yoooo yo no snitching</p>';
+      fetch('getgames',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({payload: e.value}) 
+      }).then(res =>res.json()).then(data=>{
+        let payload=data.payload;
+        console.log(payload)
+        searchResults.innerHTML='';
+        if(payload.length<1){
+          searchResults.innerHTML='<p>No result bro</p>';
+          return;  
+        }
+        payload.forEach((item,index)=>{
+          if(index>0) searchResults.innerHTML +='<hr>';
+          searchResults.innerHTML +=`
+          
+          
+          <div class="card">
+<div class="card-image waves-effect waves-block waves-light">
+<img class="activator" src="${item.gameimage} " height="200">
+</div>
+<div class="card-content">
+<span class="card-title activator grey-text text-darken-4">${item.name} <i class="material-icons right">more_vert</i></span>
+<p><a href="#">${item.description} </a></p>
+<p><a href="/edit/${item._id } "><i class="material-icons">edit</i>  </a></p>
+<p><a href="/delete/${item._id} "><i class="material-icons">delete</i> </a></p>
+</div>
+<div class="card-reveal">
+<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+<p>Here is some more information about this product that is only revealed once clicked on.</p>
+</div>
+</div> `;
+        });
+        return;
+      });
+    }
+  </script>
+<%- include('layouts/footer') %>

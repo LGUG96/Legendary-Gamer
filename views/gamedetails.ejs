@@ -1,0 +1,572 @@
+<%-  include('layouts/header') %>
+<style>
+  body {
+    background: url(/img/yy.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    background-attachment: fixed;
+
+  }
+  p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+  #card_img {
+ width:50%;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#lowcard_img {
+ width:100%;
+ max-height: 400px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+    .container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 90%;
+  }
+  @media only screen and (min-width: 601px) {
+    .container {
+      width: 100%;
+    }
+  }
+  @media only screen and (min-width: 993px) {
+    .container {
+      width: 70%;
+    }
+  }
+  textarea:focus, input:focus {
+    color: #fcfafa;
+}
+
+input, select, textarea{
+    color: rgb(255, 252, 252);
+}
+  
+</style>
+</style>
+<body class="#263238 blue-grey darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col s3"></div>
+            <div class="col s12 ">
+                <nav>
+                    <div class="nav-wrapper black">
+                      <a href="/" class="brand-logo"><img  src="/img/logo.jpg" width="250" height="70" alt=""></a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        
+                        <!--<li><a href="badges.html">Components</a></li>-->
+                        <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+                        <li>
+                        <div class="input-field">
+                          <input id="search" type="search" id="search-box" onkeyup="sendData(this)">
+                          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                          <i class="material-icons">close</i>
+                        </div></li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+  <nav>
+    <div class="nav-wrapper black">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><button class="btn-small black" onclick="sendAction('action',1)">Action</button></li>
+        <li><button class="btn-small black" onclick="sendAction('adventure',1)" href="/Adventure">Adventure</button></li>
+        <li><button class="btn-small black" onclick="sendAction('arcade',1)" href="/Arcade">Arcade</button></li>
+        <li><button class="btn-small black" onclick="sendAction('fighting',1)" href="/Fighting">Fighting</button></li>
+        <li><button class="btn-small black" onclick="sendAction('horror',1)" href="/Horror">Horror</button></li>
+        <li><button class="btn-small black" onclick="sendAction('puzzle',1)" href="/Puzzle">Puzzle</button></li>
+        <li><button class="btn-small black" onclick="sendAction('racing',1)" href="/Racing">Racing</button></li>
+        <li><button class="btn-small black" onclick="sendAction('rpg',1)" href="/RPG">RPG</button></li>
+        <li><button class="btn-small black" onclick="sendAction('shooter',1)" href="/Shooter">Shooter</button></li>
+        <li><button class="btn-small black" onclick="sendAction('simulation',1)" href="/Simulation">Simulation</button></li>
+        <li><button class="btn-small black" onclick="sendAction('sports',1)" href="/Sports">Sports</button></li>
+        <li><button class="btn-small black" onclick="sendAction('strategy',1)" href="/Strategy">Strategy</button></li>
+       
+      </ul>
+    </div>
+  </nav>
+        
+                  
+                  
+
+             <div class="col s4">
+                    <div class="card-panel black"><h6 class="white-text"><b>LATEST UPDATE</b></h6></h6></div>
+                    <% sidegames.forEach((row,index)=>{ %>
+                      <div class="row">
+                        <div class="col s12 m12">
+                          <div class="card">
+                            <div class="card-image">
+                             <a href="<%= row.id %>"> <img src="/<%= row.gameimage %> "></a>
+                              
+                            </div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                      <% }) %>                 
+  
+                </div>
+                <div class="col s8" id="searchResults">
+<% if(particulargame !=''){ %> 
+<div class="row">
+
+  <div class="card black">
+    <div class="card-image waves-effect waves-block waves-light">
+    <a href="<%= particulargame.id %> ">
+      <img class="center-align" src="/<%=particulargame.gameimage%> " height="200" id="card_img"></a>
+    </div>
+    <div class="card-content">
+    <span class="card-title activator white-text text-darken-4"><%=particulargame.name%> <i class="material-icons right">more_vert</i></span>
+    <p><a href="#"></a></p>
+    
+    </div>
+    <div class="card-panel black">
+    
+    <p class="white-text"><i class="red-text"> Genre: </i><%=particulargame.gamecategoryone %> <%=particulargame.gamecategorytwo %> <%=particulargame.gamecategorythree %>
+    <%=particulargame.gamecategoryfour %></p>
+    <p><i class="red-text"> Developer: </i><span class="white-text"><%=particulargame.developer%></span></p>
+    <p><i class="red-text"> Publisher: </i><span class="white-text"><%=particulargame.publisher%></span></p>
+    <p><i class="red-text"> Release Date: </i><span class="white-text"><%=particulargame.releasedate%></span></p>
+    <p><i class="red-text"> File Size: </i><span class="white-text"><%=particulargame.filesize%></p></span></p>
+    <p><i class="red-text"> Mirrors: </i>  
+    <% particulargame.links.forEach((rowin,index)=>{ %> 
+      <%= rowin.linktype%>
+      <% }) %> 
+    </p>
+    
+    
+    </div>
+    </div> 
+    <div class="row">
+        <div class="col s12">
+          <ul class="tabs black">
+            <li class="tab col s2"><a href="#Description">Description</a></li>
+            
+            <li class="tab col s2"><a href="#SystemRequirements">System Requirements</a></li>
+            <li class="tab col s4"><a  href="#Screenshots">Screenshots</a></li>
+            <li class="tab col s2"><a class="active" href="#LinkDownload">Download Link</a></li>
+            <li class="tab col s2"><a href="#installnote">Install Notes</a></li>
+            
+          </ul>
+        </div>
+        <div id="Description" class="col s12 card-panel black ">
+          <p class="white-text">
+          
+            <%
+        
+            var lines=particulargame.description.split('\n') 
+            lines.forEach((line) => {
+            %>
+            
+             
+      <p class="white-text"><%= line %></p>
+    <% }); %>
+          
+          
+          
+          </p></div>
+        <div id="SystemRequirements" class="col s12 card-panel black"><p class="white-text"><%
+        
+        var lines=particulargame.systemrequirement.split('\n') 
+        lines.forEach((line) => {
+        %>
+        
+         
+  <p class="white-text"><%= line %></p>
+<% }); %>
+       </p></div>
+        <div id="installnote" class="col s12 card-panel black"><p class="white-text">
+          
+          <%
+        
+            var lines=particulargame.installnotes.split('\n') 
+            lines.forEach((line) => {
+            %>
+            
+             
+      <p class="white-text"><%= line %></p>
+    <% }); %>
+          
+          
+          </p></div>
+        <div id="Screenshots" class="col s12 card-panel">
+          <ul class="collection">
+          <% particulargame.screenshots.forEach((row,index)=>{%>
+            <li class="collection-item black"><div class="card-panel #424242 grey darken-3">
+
+           <img id="lowcard_img" src="/<%= row %>" alt="" width="400" >
+
+            </div></li>
+         <%})%>
+        </ul>
+        </div>
+        <div id="LinkDownload" class="col s12 "><ul class="collection">
+          <li class="collection-item black"><a class="btn">Googledrive</a><div class="card-panel #424242 grey darken-3">
+            <%
+            var i=1;
+            particulargame.links.forEach((row,index)=>{
+              
+              if( row.linktype=='googledrive') {
+               %>
+                <a href="<%= row.link %>" target="_blank">part<%=i%></a>
+              
+            
+            
+            
+            <% i++}})%>
+          </div></li>
+
+
+          <li class="collection-item black"><a class="btn">Mediafire</a><div class="card-panel #424242 grey darken-3">
+            <%
+            var i=1;
+            particulargame.links.forEach((row,index)=>{
+              
+              if( row.linktype=='Mediafire') {
+               %>
+                <a href="<%= row.link %>" target="_blank">part<%=i%></a>
+              
+            
+            
+            
+            <% i++}})%>
+          </div></li>
+
+
+
+
+
+
+          <li class="collection-item black"><a class="btn">Megaup</a><div class="card-panel #424242 grey darken-3">
+            <%
+            var i=1;
+            particulargame.links.forEach((row,index)=>{
+              
+              if( row.linktype=='megaup') {
+               %>
+                <a href="<%= row.link %>" target="_blank">part<%=i%></a>
+              
+            
+            
+            
+            <% i++}})%>
+          </div></li>
+
+
+
+
+          <li class="collection-item black"><a class="btn">Mega</a><div class="card-panel #424242 grey darken-3">
+            <%
+            var i=1;
+            particulargame.links.forEach((row,index)=>{
+              
+              if( row.linktype=='mega') {
+               %>
+                <a href="<%= row.link %>" target="_blank">part<%=i%></a>
+              
+            
+            
+            
+            <% i++}})%>
+          </div></li>
+
+
+          <li class="collection-item black"><a class="btn">Torrents</a><div class="card-panel #424242 grey darken-3">
+            <%
+            var i=1;
+            particulargame.links.forEach((row,index)=>{
+              
+              if( row.linktype=='torrents') {
+               %>
+                <a href="<%= row.link %>" target="_blank">part<%=i%></a>
+              
+            
+            
+            
+            <% i++}})%>
+          </div></li>
+
+
+            </ul>
+        </div>
+      
+      </div>
+</div>
+ 
+  <% }else{ %>
+    
+    
+           <% } %>    
+           <div class="row card-panel #424242 grey darken-3" >
+            <div id="gamecomments" >
+              <ul class="collection" id="comments">
+    </ul>
+              </div>
+    <form class="col s12" action="/comments" method="post">
+      <span class="collection-header"><h4>Post a comment</h4></span>
+      <input  type="hidden" name="gameid" value="<%= particulargame.id %>" >
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="" name="commentorname" type="text" class="validate" required>
+          <label for="first_name">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="email" name="commentoremail" type="email" class="validate" required>
+          <label for="email">Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea   type="text" name="realcomment" class="validate" required></textarea>
+          <label for="disabled">Comment</label>
+        </div>
+      </div>
+<button type="submit" class="btn" >Comment</button>
+    </form>
+  </div>
+              </div>
+              <div id="catepagi" class="col"></div>
+            </div>
+            
+              <div class="col s3"></div>
+            
+        </div>
+      
+    </div>
+  </body>
+
+  <script>
+
+    $(document).ready(function(){
+      $(document).on('click', '.reply-button', function (event) {
+   var formId = $(event.target).attr("data-form");
+   $("#"+formId).toggle();
+});
+      var commentId="<%= particulargame.id%>";
+    window.me = "";
+        $.ajax({
+          url: '/comments/'+commentId,
+          method: 'GET',
+          success: function(data){
+            console.log("Ajax Success", data);
+            var i=0;
+            data.forEach(function(comment){
+  
+
+              $.ajax({
+          url: '/repliesget/'+comment._id,
+          method: 'GET',
+          success: function(data){
+
+data.forEach(function(replies){
+  //console.log("brooo"+replies.message)
+  me=replies.message;
+console.log(me);
+let $myDiv = $("#"+replies.commentId);
+$myDiv.html(`
+  <li class="collection-item avatar black white-text">
+                <i class="material-icons circle">person</i>
+                <span class="title">${replies.name}</span>
+                <p>${replies.message}</p>
+                </li>
+  `);
+})
+
+          }});
+            i++;
+              var newComment = $(`<li class="collection-item avatar black white-text">
+                <i class="material-icons circle">person</i>
+                <span class="title">
+                <strong>${comment.commentorname}</strong>
+                </span>
+                <p class="">${comment.comment}</p>
+                <ul class="collection" id="${comment._id}"></ul>
+                <button data-form="reply-form${i}" class="reply-button secondary-content waves-effect waves-light btn-small">Reply</button>
+     <form action="/replycomments" method="post" class="reply-form text-white" id="reply-form${i}" style="display: none;">
+   
+    <div class="row">
+        <div class="input-field col s6 ">
+          <input placeholder="" name="commentornamer" type="text" class="validate" required>
+          <label for="first_name">Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="email" name="commentoremailr" type="email" class="validate" required>
+          <label for="email">Email</label>
+        </div>
+      </div>
+    <label for="message">Reply:</label>
+    <input type="hidden" name="parentcomment" value="${comment._id}">
+    <input type="hidden" name="gameid" value="${commentId}">
+    <textarea id="message" name="replymessage"></textarea>
+    <button type="submit" class="btn-small" >Submit</button>
+  </form> 
+                </li>
+                
+              
+              `);
+              $('#comments').append(newComment);
+     
+});
+          },
+  error: function(error) {
+    console.log("Ajax Error", error);
+        }
+      });
+    });
+
+    </script>
+  <script>
+   
+  
+
+    function sendData(e){
+      const searchResults=document.getElementById('searchResults');
+      //searchResults.innerHTML='<p>Yoooo yo no snitching</p>';
+      fetch('/getgames',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({payload: e.value}) 
+      }).then(res =>res.json()).then(data=>{
+        let payload=data.payload;
+        console.log(payload)
+        searchResults.innerHTML='';
+        if(payload.length<1){
+          searchResults.innerHTML='<p>No result bro</p>';
+          return;  
+        }
+        payload.forEach((item,index)=>{
+          if(index>0) searchResults.innerHTML +='<hr>';
+          searchResults.innerHTML +=`
+          
+          <div class="col s12">
+  <div class="card col s6 black">
+    <div class="card-image waves-effect waves-block waves-light">
+    <a href="gamedetails/${item._id} "><img class="" src="/${item.gameimage} " height="200" ></a>
+    </div>
+    <div class="card-content">
+    <span class="card-title activator white-text text-darken-4">${item.name} <i class="material-icons right">more_vert</i></span>
+    <p><a href="#"></a></p>
+    
+    </div>
+    <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">${item.name}<i class="material-icons right">close</i></span>
+    <p>${item.description} .</p>
+    <a href="gamedetails/${ item._id } " class="btn-small black">Download</a>
+    </div>
+    
+    </div> 
+    <div class="card-panel col s6 black">
+      <p class="white-text"><i class="yellow-text"> Genre: </i>${item.gamecategoryone } ${item.gamecategorytwo } ${item.gamecategorythree }
+        ${item.gamecategoryfour }</p>
+      <p class="white-text"><i class="yellow-text"> Developer: </i>${item.developer}</p>
+      <p class="white-text"><i class="yellow-text"> Publisher: </i>${item.publisher}</p>
+      <p class="white-text"><i class="yellow-text"> Release Date: </i>${item.releasedate}</p>
+      <p class="white-text"><i class="yellow-text"> File Size: </i>${item.filesize}</p>
+      <p class="white-text"><i class="yellow-text"> Mirrors: </i>  
+    Googledrive Mediafire Mega Megaup Torrent
+      </p>
+      
+    </div>
+  </div> `;
+        });
+        return;
+      });
+    }
+
+    function sendAction(parameter, pageNumber){
+      const searchResults=document.getElementById('searchResults');
+      const catepagi=document.getElementById('catepagi');
+      //searchResults.innerHTML='<p>Yoooo yo no snitching</p>';
+      /*fetch(parameter,{*/
+        fetch('/proto',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({payload: parameter,page: pageNumber}) 
+      }).then(res =>res.json()).then(data=>{
+        let payload=data.payload;
+        let pages= data.pages;
+        let page= data.page;
+        catepagi.innerHTML = `
+<ul class="pagination">
+  ${page > 1 ? `
+    <li class="waves-effect ">
+      <button class=" btn black" onclick="sendAction('${parameter}',${page - 1})">
+      
+        <i class="material-icons ">chevron_left</i>
+      </button>
+    </li>
+  ` : ''}
+  
+  
+  ${page < pages ? `
+    <li class="waves-effect ">
+      
+      <button class=" btn black" onclick="sendAction('${parameter}',${Number(page) + 1})">
+        <i class="material-icons ">chevron_right</i>
+      </button>
+    </li>
+  ` : ''}
+</ul>`;
+
+       // console.log(payload)
+        searchResults.innerHTML='';
+        if(payload.length<1){
+          searchResults.innerHTML='<p>No result bro</p>';
+          return;  
+        }
+        payload.forEach((item,index)=>{
+          if(index>0) searchResults.innerHTML +='<hr>';
+          searchResults.innerHTML +=`
+          
+          
+          <div class="col s12">
+  <div class="card col s6 black">
+    <div class="card-image waves-effect waves-block waves-light">
+    <a href="gamedetails/${item._id} "><img class="" src="/${item.gameimage} " height="200" ></a>
+    </div>
+    <div class="card-content">
+    <span class="card-title activator white-text text-darken-4">${item.name} <i class="material-icons right">more_vert</i></span>
+    <p><a href="#"></a></p>
+    
+    </div>
+    <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">${item.name}<i class="material-icons right">close</i></span>
+    <p>${item.description} .</p>
+    <a href="gamedetails/${ item._id } " class="btn-small black">Download</a>
+    </div>
+    
+    </div> 
+    <div class="card-panel col s6 black">
+      <p class="white-text"><i class="yellow-text"> Genre: </i>${item.gamecategoryone } ${item.gamecategorytwo } ${item.gamecategorythree }
+        ${item.gamecategoryfour }</p>
+      <p class="white-text"><i class="yellow-text"> Developer: </i>${item.developer}</p>
+      <p class="white-text"><i class="yellow-text"> Publisher: </i>${item.publisher}</p>
+      <p class="white-text"><i class="yellow-text"> Release Date: </i>${item.releasedate}</p>
+      <p class="white-text"><i class="yellow-text"> File Size: </i>${item.filesize}</p>
+      <p class="white-text"><i class="yellow-text"> Mirrors: </i>  
+    Googledrive Mediafire Mega Megaup Torrent
+      </p>
+      
+    </div>
+    <div class="card-panel col s12 black white-text"><p>${item.description.substring(0, 120)} ...<a 
+      href="gamedetails/${item._id} ">more</a></p></div>
+  </div> `;
+        });
+        return;
+      });
+    }
+
+
+  </script>
+<%- include('layouts/footer') %>

@@ -1,0 +1,289 @@
+<%-  include('layouts/header') %>
+<body class="#eeeeee grey lighten-3">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l2"></div>
+            <div class="col s12 m4 l8">
+                <nav class="green">
+                    <div class="nav-wrapper">
+                      <a href="#" class="brand-logo"><%= thegame.name %></a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/addgame">Add game</a></li>
+                        
+                        <li><a href="/logout">Logout</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                
+                
+                
+  <div class="row">
+    <form class="col s12" action="/update/<%= thegame.id %>" method="post" enctype="multipart/form-data">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="gamename" placeholder="<%= thegame.name %>" ><%= thegame.name %></textarea>
+          <label for="textarea1">Name</label>
+        </div>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="cateone" required value="<%= thegame.gamecategoryone %>">
+          <option value="" disabled selected>Category one</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+        <label>Category one</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="catetwo" value="<%= thegame.gamecategorytwo %>">
+          <option value="" disabled selected>Category one</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+                <label>Category Two</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="catethree" value="<%= thegame.gamecategorythree %>">
+ <option value="" disabled selected>Category one</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+        <label>Category Three</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="catefour" value="<%= thegame.gamecategoryfour %>">
+    <option value="" disabled selected>Category one</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+        <label>Category Four</label>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="des" placeholder="<%= thegame.description %>" ><%= thegame.description %></textarea>
+          <label for="textarea1">Description</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="publisher" placeholder="<%= thegame.publisher %>"><%= thegame.publisher%></textarea>
+          <label for="textarea1">Publisher</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="developer" placeholder="<%= thegame.developer %>"><%= thegame.developer %></textarea>
+          <label for="textarea1">Developer</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="systemrequirement" placeholder="<%= thegame.systemrequirement %>"><%= thegame.systemrequirement %></textarea>
+          <label for="textarea1">System Requirement</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="installnotes" placeholder="<%= thegame.installnotes %>" ><%= thegame.installnotes %></textarea>
+          <label for="textarea1">Install Notes</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="filesize" placeholder="<%= thegame.filesize %>"><%= thegame.filesize %></textarea>
+          <label for="textarea1">File size</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          
+    <input type="text" class="datepicker" name="releasedate" placeholder="<%= thegame.releasedate %>" value="<%= thegame.releasedate %>">
+     <label for="textarea1">Release date</label>
+        </div>
+      </div>
+
+        <img class="materialboxed" width="300" height="300" src="/<%= thegame.gameimage %>" alt="">
+      </div>
+      <input type="hidden" name="oldimage" value="<%= thegame.gameimage%>">
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>File</span>
+          <input type="file" name="gameimg">
+        </div>
+        
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text">
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit" name="submit">Submit
+        <i class="material-icons right">upload</i>
+      </button>
+    
+    </form>
+    <div class="row">
+      <ul class="collection with-header">
+        <li class="collection-header"><h4>Download Links</h4></li>
+      <% thegame.links.forEach((row,index)=>{ %>
+        <li class="collection-item"><div>
+          
+           <%=row.link  %><a href="/deletelink/<%=row.id%>/<%= thegame.id %>  " class="secondary-content"><i class="material-icons">delete</i></a>
+           <span class="new badge blue" data-badge-caption=""><%=row.linktype  %></span></div></li>
+        
+      
+        
+        <%  })%>
+        </ul>
+        </div>
+          
+      <div class="row">
+        <div class="input-field col s12 m4">
+          <select class="icons" name="linktype"  id="mycate" required>
+            <option value="" disabled selected>Category one</option>
+            <option value="googledrive" >Googledrive</option>
+            <option value="Mediafire" >Mediafire</option>
+            <option value="megaup">Megaup</option>
+            <option value="mega">Mega</option>
+            <option value="updates">update</option>
+          </select>
+          <label>Link type</label>
+        </div>
+        
+        <div class="input-field col s12 m6">
+          <textarea id="thelink" class="materialize-textarea" name="gamelink"></textarea>
+          <label for="textarea1">Game Link</label>
+        </div>  
+        <div class="input-field col s12 m2">
+        <button class="btn-floating btn-large waves-effect waves-light green"  onclick="getvalues('<%= thegame.id %>')"><i class="material-icons">add</i></button>
+      </div>
+      </div>
+    <ul class="collection with-header">
+      <li class="collection-header"><h4>Game Screenshots</h4></li>
+    <%
+     
+    thegame.screenshots.forEach((row,index)=>{  %>
+     
+      <li class="collection-item avatar">
+        
+        <div>
+          <img src="/<%=row%>" alt="" class="circle">
+         <a href="/deleteimage/<%=row%>/<%= thegame.id %>  " class="secondary-content"><i class="material-icons">delete</i></a>
+         </div></li>
+      
+    
+      
+      <%  })%>
+      </ul>
+    <div class="row">
+      <div class="input-field col s12 m4">
+       Screenshots
+      </div>
+      
+      <div class="input-field col s12 m6">
+        <form id="formimg" method="post" action="/addimg" enctype="multipart/form-data">
+        <input type="file" id="fileInput" name="screenimg" accept="image/*" >
+      </div>  
+      <div class="input-field col s12 m2">
+        <input type="hidden" name="gameid" value="<%= thegame.id%>">
+      <button type="submit" class="btn-floating btn-large waves-effect waves-light green"  ><i class="material-icons">add</i></button>
+     </div>
+    </form>
+    </div>
+  </div>
+                
+                
+                
+                
+                </div>
+            <div class="col s12 m4 l2"></div>
+            
+        </div>
+      
+    </div>
+  </body>
+  <script>
+    function getvalues(id){
+      var e = document.getElementById("mycate");
+
+var b = document.getElementById("thelink");
+   //     document.getElementById("demo").innerHTML = e.value;
+        fetch('/addlink',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({cate: e.value,downman:b.value,id:'<%= thegame.id %>'}) 
+      })
+//var text = e.options[e.selectedIndex].text;
+    }
+
+
+function getvaluesimg(id){
+
+var b = document.getElementById("theimg");
+document.getElementById('submitButton').addEventListener('click', function(e) {
+  e.preventDefault();
+  
+  var formData = new FormData(document.getElementById('formimg'));
+  
+  fetch('/addimg', {
+    method: 'POST',
+    body: formData
+  })
+  .then(response => response.json())
+  .then(data => {
+    // do something with the response data
+  });
+});
+    }
+  </script>
+        
+<%- include('layouts/footer') %>

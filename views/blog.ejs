@@ -1,0 +1,349 @@
+<%-  include('layouts/header') %>
+
+<style>
+.carousel {
+  max-width: 1000px; /* adjust as needed */
+  margin: 0 auto; /* center the carousel */
+}
+#blog-image {
+  max-width: 500%;
+  max-height: 800px;
+}
+
+.card-content {
+  word-wrap: break-word;
+}
+.card-imagez img {
+  object-fit: cover;
+  max-height: 300px;
+  max-width: 100%;
+}
+
+
+
+</style>
+
+
+
+
+<body class="grey darken-4">
+  <div class="container" >
+    <div class="carousel carousel-slider center" id="main-pics">
+      <div class="carousel-fixed-item center">
+        
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/nine.jpg"  >
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/ten.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#one!">
+    
+        <img src="/img/truck.jpg">
+        <p class="white-text">This is your first panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#two!">
+     
+        <img src="/img/wk.jpg">
+        <p class="white-text">This is your second panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#three!">
+    
+        <img src="/img/manage.jpg">
+        <p class="white-text">This is your third panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/hog.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/one.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/two.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/three.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/four.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/five.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/six.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/seven.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/eleven.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/twelve.jpg">
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+      <div class="carousel-item white-text" href="#four!">
+
+        <img src="/img/hog.jpg">
+        
+        <p class="white-text">This is your fourth panel</p>
+         <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('agamagcargoan.com',5964937,document.createElement('script'))</script>
+      </div>
+      
+    </div>
+  </div>
+  <div id="main-blog" tabindex="0"></div>
+ <!--<div class="row ">
+  <div class="col s12 m12">
+    <div class="card black white-text">
+      <div class="card-image">
+        <img id="blog-image" src="" />
+        <span id="blog-title" class="card-title"></span>
+      </div>
+      <div class="card-content">
+        
+        <p id="blog-content"></p>
+      </div>
+    </div>
+  </div>
+</div>-->
+  <div class="row">
+  <div class="col s12 m3">
+    <ul class="collection with-header white-text">
+      
+      <li class="collection-header black"><h4>Latest News</h4></li>
+      <% blogs.forEach((blog) => { %>
+      <li class="collection-item avatar black">
+        <img src="<%= blog.blogimage %>" alt="" class="circle">
+        <span class="title"><%= blog.blogtitle %></span>
+        
+        <p class="truncate"><%= blog.createddate.toLocaleDateString() %></p>
+       <!-- <p class="truncate">--><%- //blog.blog.substr(0, 100) + '...' %><!--</p>-->
+          <a href="blog-details/<%= blog._id %>" class="blog-link" data-blogid="">Read More</a>
+
+
+
+      </li>
+      <% }) %>
+      
+    </ul>
+  </div>
+
+
+  <div class="col s12 m9">
+    <div id="blog-modal" class="modal">
+      <div class="modal-content">
+        <h4 id="modal-title"></h4>
+        <img id="modal-image" src="" width="100%" height="auto">
+        <p id="modal-date"></p>
+        <p id="modal-content"></p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+
+
+
+    <!--cards-->
+    <div class="row" id="myrow">
+      <% blogs.sort((a, b) => b.createddate - a.createddate).slice(0, 6).forEach((blog) => { %>
+        <div class="col s12 m4">
+          <a href="blog-details/<%= blog._id %>" class="blog-link" data-blogid="">
+            <div class="card black white-text">
+              <div class="card-image card-imagez">
+                <img src="<%= blog.blogimage %>" style="width: 370px; height: 300px;">
+              </div>
+             <!-- Update the card content section -->
+<div class="card-content">
+  <span class="card-title"><b><%= blog.blogtitle.length > 40 ? blog.blogtitle.slice(0, 40) + '...' : blog.blogtitle %></b></span>
+  <!--<p>--> <%-// blog.blog.length > 80 ? blog.blog.slice(0, 80) + '...' : blog.blog %><!--</p>-->
+</div>
+
+              
+            </div>
+          </a>
+        </div>
+      <% }) %>
+    </div>
+      <!--end of cards--->
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel black">
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.    
+            I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+        </span>
+          </div>
+        </div>
+        
+         <!--<script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('agamagcargoan.com',5964937,document.createElement('script'))</script>-->
+      </div>
+      
+  </div>
+</div>
+<!-- Modal Structure -->
+<!--
+<div id="blog-modal" class="modal">
+  <div class="modal-content">
+    <h4 id="blog-title"></h4>
+    <img id="blog-image" src="" />
+    <div id="blog-content"></div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+</div>
+-->
+    
+    
+
+
+
+
+
+<div class="carousel">
+  <a class="carousel-item" href="#three!"><img src="/img/seven.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/eight.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/nine.jpg"></a>
+  <a class="carousel-item" href="#one!"><img src="/img/truck.jpg"></a>
+  <a class="carousel-item" href="#two!"><img src="/img/wk.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/hog.jpg"></a>
+  <a class="carousel-item" href="#four!"><img src="/img/last.jpg"></a>
+  <a class="carousel-item" href="#five!"><img src="/img/manage.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/one.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/two.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/three.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/four.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/five.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/six.jpg"></a>
+
+  <a class="carousel-item" href="#three!"><img src="/img/ten.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/eleven.jpg"></a>
+  <a class="carousel-item" href="#three!"><img src="/img/twelve.jpg"></a>
+</div>
+
+ <!--<script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('agamagcargoan.com',5964937,document.createElement('script'))</script>-->
+  </body>
+  
+  
+  
+  
+  
+  
+  
+  <script>
+$(document).ready(function() {
+  var elementToReplace = $('#main-blog');
+  var newElement = $('<div class="row" id="card"><div class="col s12 m12"><div class="card black white-text"><div class="card-image"><img id="blog-image" src="" /><span id="blog-title" class="card-title #e65100 orange darken-4"></span></div><div class="card-content" id="blog-content"></div></div></div></div>').hide();
+  elementToReplace.replaceWith(newElement);
+
+  // Check if blog ID exists in the URL
+  var urlParams = new URLSearchParams(window.location.search);
+  var blogId = urlParams.get('id');
+
+  if (blogId) {
+    // Fetch the blog data using an AJAX request
+    $.ajax({
+      url: '/blog/' + blogId,
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        // Update the content of the modal with the blog data
+        $('#blog-title').text(data.blogtitle);
+        $('#blog-image').attr('src', data.blogimage);
+        $('#blog-content').html('<p>' + data.blog + '</p>');
+
+        newElement.show();
+        $('html, body').animate({
+          scrollTop: newElement.offset().top
+        }, 500);
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+        console.error(textStatus, errorThrown);
+      }
+    });
+  }
+
+  $('.blog-link').click(function(event) {
+    //event.preventDefault();
+    var blogId = $(this).data('blogid');
+
+    $.ajax({
+      url: '/blog/' + blogId,
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        $('#blog-title').text(data.blogtitle);
+        $('#blog-image').attr('src', data.blogimage);
+        $('#blog-content').html('<p>' + data.blog + '</p>');
+
+        newElement.show();
+        $('html, body').animate({
+          scrollTop: newElement.offset().top
+        }, 500);
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+        console.error(textStatus, errorThrown);
+      }
+    });
+  });
+});
+
+
+
+
+  
+
+
+
+
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <%-  include('layouts/footer') %>

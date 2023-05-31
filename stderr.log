@@ -1,0 +1,2413 @@
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1174244) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1200421) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1200857) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+/home/downkrfb/gameapp/routes/routes.js:768
+      return res.render('blog-details', { blogs:blogs,blog: blog, title: title: blog.blogtitle });
+                                                                              ^
+
+SyntaxError: Unexpected token ':'
+    at wrapSafe (internal/modules/cjs/loader.js:1001:16)
+    at Module._compile (internal/modules/cjs/loader.js:1049:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:12)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:101:18)
+    at Object.<anonymous> (/home/downkrfb/gameapp/main.js:51:12)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1352635) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:13
+    11| </script>-->
+    12|         <title>
+ >> 13| <%=title%>
+    14|     </title>
+    15|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    16|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:1:1), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:1:1), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3623941) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3733513) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3795395) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3815601) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3821562) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3899964) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3917727) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3922971) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3924093) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3937634) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3947711) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3992558) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4014544) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4015197) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4049213) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:936354) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1801048) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2563842) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3434428) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4137776) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4146521) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:348692) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:349263) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:418821) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:695301) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:733287) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:748963) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:754933) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1929126) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3095852) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:794602) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2516406) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:725813) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1717428) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2765671) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3767596) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2811514) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:254982) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1780805) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2613874) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3451124) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:157908) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1309276) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2307495) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3244893) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4134425) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1094423) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1879793) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2806746) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3601644) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:150112) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1260190) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2277206) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3543271) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:384108) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2758097) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3771396) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:592370) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1854004) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3231583) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3596438) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3604659) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3610723) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:547221) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1492738) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2314676) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3398566) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:580477) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2057627) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3442295) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+TypeError: Cannot read property 'filename' of undefined
+    at /home/downkrfb/gameapp/routes/routes.js:41:28
+    at Layer.handle [as handle_request] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/router/route.js:144:13)
+    at done (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/multer/lib/make-middleware.js:45:7)
+    at indicateDone (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/multer/lib/make-middleware.js:49:68)
+    at Multipart.<anonymous> (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/multer/lib/make-middleware.js:166:7)
+    at Multipart.emit (events.js:400:28)
+    at emitCloseNT (internal/streams/destroy.js:87:10)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:436609) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2187172) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3318971) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:254547) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1425868) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2687774) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3771931) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:760323) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2084517) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3083906) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:23630) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1398433) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1617713) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1640707) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3004244) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4127088) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2936012) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:113208) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3203940) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:68032) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:219607) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:426531) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:448358) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:456519) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:463232) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:506075) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:563019) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:563589) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:963385) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:968064) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1031532) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2131270) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2428064) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2433580) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2463830) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2527306) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3501871) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:469496) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:554989) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:622244) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:643917) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:676956) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1098223) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1191438) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1300032) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+SyntaxError: missing ) after argument list in /home/downkrfb/gameapp/views/blog-details.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12)
+    at Object.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:398:16)
+    at handleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:235:18)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:16)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/response.js:1039:7)
+SyntaxError: missing ) after argument list in /home/downkrfb/gameapp/views/blog-details.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12)
+    at Object.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:398:16)
+    at handleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:235:18)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:16)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/response.js:1039:7)
+SyntaxError: missing ) after argument list in /home/downkrfb/gameapp/views/blog-details.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12)
+    at Object.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:398:16)
+    at handleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:235:18)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:16)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/response.js:1039:7)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1306799) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+SyntaxError: missing ) after argument list in /home/downkrfb/gameapp/views/blog-details.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12)
+    at Object.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:398:16)
+    at handleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:235:18)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:16)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/response.js:1039:7)
+SyntaxError: missing ) after argument list in /home/downkrfb/gameapp/views/blog-details.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12)
+    at Object.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:398:16)
+    at handleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:235:18)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:16)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/response.js:1039:7)
+SyntaxError: missing ) after argument list in /home/downkrfb/gameapp/views/blog-details.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+    at new Function (<anonymous>)
+    at Template.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12)
+    at Object.compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:398:16)
+    at handleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:235:18)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:16)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+    at ServerResponse.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/response.js:1039:7)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1316068) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1327255) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1339516) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1346314) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2287993) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:840406) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2056058) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2277552) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2405857) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2482327) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2592847) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3109699) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3148660) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3465863) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1166852) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2378395) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3227582) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1147039) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2448704) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3633646) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:673:12), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:584242) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:1:1), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:1:1), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+ReferenceError: /home/downkrfb/gameapp/views/login.ejs:1
+ >> 1| <%-  include('layouts/header') %>
+    2| <style>
+    3|     
+    4|       textarea:focus, input:focus {
+
+/home/downkrfb/gameapp/views/layouts/header.ejs:15
+    13|     
+    14|         <title>
+ >> 15| <%=title%>
+    16|     </title>
+    17|     <link rel="icon" type="image/x-icon" href="/img/logo.jpg">
+    18|     <link rel="stylesheet" href="/css/materialize.css">
+
+title is not defined
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:1:1), <anonymous>:12:25)
+    at header (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at include (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:701:39)
+    at eval (eval at compile (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:1:1), <anonymous>:10:18)
+    at login (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:703:17)
+    at tryHandleCache (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:274:36)
+    at View.exports.renderFile [as engine] (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/ejs/lib/ejs.js:491:10)
+    at View.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/view.js:135:8)
+    at tryRender (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:657:10)
+    at Function.render (/home/downkrfb/nodevenv/gameapp/14/lib/node_modules/express/lib/application.js:609:3)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1930599) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3241161) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:393260) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1611025) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2934842) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:4162935) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1265043) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2769416) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3958940) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:957824) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2671699) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3952814) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:520151) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:605161) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:2065255) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:3474546) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:695753) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Warning: connect.session() MemoryStore is not
+designed for a production environment, as it will leak
+memory, and will not scale past a single process.
+(node:1844628) [MONGOOSE] DeprecationWarning: Mongoose: the `strictQuery` option will be switched back to `false` by default in Mongoose 7. Use `mongoose.set('strictQuery', false);` if you want to prepare for this change. Or use `mongoose.set('strictQuery', true);` to suppress this warning.
+(Use `node --trace-deprecation ...` to show where the warning was created)

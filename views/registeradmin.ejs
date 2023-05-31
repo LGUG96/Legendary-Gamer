@@ -1,0 +1,57 @@
+<%-  include('layouts/header') %>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l2"></div>
+            <div class="col s12 m4 l8">
+                <nav>
+                    <div class="nav-wrapper">
+                      <a href="#" class="brand-logo">Logo</a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/addgame">Add game</a></li>
+                        <li><a href="badges.html">Components</a></li>
+                        <li><a href="collapsible.html">JavaScript</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+                
+                
+                
+  <div class="row">
+    <form class="col s12" action="/register" method="post">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="username"></textarea>
+          <label for="textarea1">Admin Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="adminemail" type="email"></textarea>
+          <label for="textarea1">Admin Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="password" type="password"></textarea>
+          <label for="textarea1">Admin Password</label>
+        </div>
+      </div>
+      <button class="btn waves-effect waves-light" type="submit" name="submit">Submit
+        <i class="material-icons right">send</i>
+      </button>
+    </form>
+  </div>
+                
+                
+                
+                
+                </div>
+            <div class="col s12 m4 l2"></div>
+            
+        </div>
+      
+    </div>
+  </body>
+        
+<%- include('layouts/footer') %>

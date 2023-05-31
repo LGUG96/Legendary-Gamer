@@ -1,0 +1,79 @@
+<!-- edit-blog.ejs -->
+<%-  include('layouts/header') %>
+
+<body class="black">
+    <!-- views/add-blog.ejs -->
+
+<h1>Add Blog</h1>
+
+<div class="row">
+  <div class="col s12 m12">
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Include Froala Editor CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/3.2.6/css/froala_editor.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/3.2.6/css/froala_style.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Panel</h1>
+    <span class="card-title">New Blog</span>
+    <form id="blog-form" action="/blog/<%= blog._id %>" method="POST" enctype="multipart/form-data">
+      <div class="input-field">
+        <input type="text" id="blog" name="blogtitle">
+        <label for="blog">Title</label>
+      </div>
+ 
+      <textarea id="editor" name="blogcontent"><%= blog.blog %></textarea>
+
+  <input type="hidden" name="blog" id="blogcontent">
+
+      <div class="file-field input-field">
+        <div class="btn">
+          <span>Upload Image</span>
+          <input type="file" name="blogimage">
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text">
+        </div>
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+
+  <!-- Include Materialize JS -->
+  <!-- Include Materialize JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Include Froala Editor JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/3.2.6/js/froala_editor.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/3.2.6/js/plugins.pkgd.min.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var editor = new FroalaEditor('#editor', {
+        // Froala Editor configuration options
+      });
+
+      document.getElementById('blog-form').addEventListener('submit', function(e) {
+       
+        // Prevent the default form submission
+        e.preventDefault();
+       // alert('mannnnn');
+        // Get the HTML content from Froala Editor
+        var htmlContent = editor.html.get();
+  alert(htmlContent);
+        // Set the HTML content as the value of the "blog" input field
+        document.getElementById('blogcontent').value = htmlContent;
+  
+        // Submit the form
+        this.submit();
+      });
+    });
+  </script>
+  
+</body>
+</html>
+

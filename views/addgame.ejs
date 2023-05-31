@@ -1,0 +1,206 @@
+<%-  include('layouts/header') %>
+<style>
+  input[type=text], input[type=email], textarea {
+  color: white;
+}
+</style>
+<body class="black">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4 l2"></div>
+            <div class="col s12 m4 l8">
+                <nav class="green">
+                    <div class="nav-wrapper">
+                      <a href="#" class="brand-logo"></a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="/addgame">Add game</a></li>
+                       <!-- <li><a href="badges.html">Components</a></li>-->
+                       <!-- <li><a href="collapsible.html">JavaScript</a></li>-->
+                      </ul>
+                    </div>
+                  </nav>
+                
+                
+                
+  <div class="row">
+    <form class="col s12" action="/addgame" method="post" enctype="multipart/form-data">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="gamename" required></textarea>
+          <label for="textarea1">Name</label>
+        </div>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="cateone" required>
+          <option value="" disabled selected>Category one</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+        <label>Category one</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="catetwo">
+          <option value="" disabled selected>Category Two</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+                <label>Category Two</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="catethree">
+          <option value="" disabled selected>Category Three</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+        <label>Category Three</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <select class="icons" name="catefour">
+          <option value="" disabled selected>Category Four</option>
+          <option value="action" >Action</option>
+          <option value="adventure" >Adventure</option>
+          <option value="arcade" >Arcade</option>
+          <option value="casual">Casual</option>
+          <option value="fighting">Fighting</option>
+          <option value="horror">Horror</option>
+          <option value="platformer">Platformer</option>
+          <option value="puzzle">Puzzle</option>
+          <option value="racing">Racing</option>
+          <option value="rpg">RPG</option>
+          <option value="shooter">Shooter</option>
+          <option value="simulation">Simulation</option>
+          <option value="sports">Sports</option>
+          <option value="visualnovel">Visual Novel</option>
+          <option value="strategy" >Strategy</option>
+        </select>
+        <label>Category Four</label>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="des"></textarea>
+          <label for="textarea1">Description</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="publisher"></textarea>
+          <label for="textarea1">Publisher</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="developer"></textarea>
+          <label for="textarea1">Developer</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="systemrequirement"></textarea>
+          <label for="textarea1">System Requirement</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="installnotes"></textarea>
+          <label for="textarea1">Install Notes</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="filesize"></textarea>
+          <label for="textarea1">File size</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          
+  <input type="text" class="datepicker" name="releasedate">
+  <label for="textarea1">Release date</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 m6">
+          <select class="icons" name="linktype" required>
+            <option value="" disabled selected>Category one</option>
+            <option value="googledrive" >Googledrive</option>
+            <option value="Mediafire" >Mediafire</option>
+            <option value="megaup">Megaup</option>
+            <option value="mega">Mega</option>
+            <option value="updates">Updates</option>
+            
+          </select>
+          <label>Link type</label>
+        </div>
+        <div class="input-field col s12 m6">
+          <textarea id="textarea1" class="materialize-textarea" name="gamelink"></textarea>
+          <label for="textarea1">Game Link</label>
+        </div>  
+      </div>
+        <div class="row">
+        <div class="file-field input-field">
+        <div class="btn">
+          <span>File</span>
+          <input type="file" name="gameimg">
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text">
+        </div>
+      </div>
+    </div>
+      <button class="btn waves-effect waves-light" type="submit" name="submit">Submit
+        <i class="material-icons right">send</i>
+      </button>
+    </form>
+  </div>
+                
+                
+                
+                
+                </div>
+            <div class="col s12 m4 l2"></div>
+            
+        </div>
+      
+    </div>
+  </body>
+        
+<%- include('layouts/footer') %>

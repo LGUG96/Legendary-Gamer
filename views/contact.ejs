@@ -1,0 +1,77 @@
+<%-  include('layouts/header') %>
+<!DOCTYPE html>
+<html>
+    <style>
+.card {
+  margin-top: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+textarea.materialize-textarea {
+  height: 200px;
+}
+input[type=text], input[type=email], textarea {
+  color: white;
+}
+
+
+    </style>
+<body class="grey darken-4">
+    <div class="container">
+        <div class="row">
+          <div class="col s12 m6 offset-m3">
+            <div class="card black">
+              <div class="card-content white-text">
+                <span class="card-title">Contact Us</span>
+                <form action="/contact" method="POST">
+                  <div class="input-field">
+                    <input id="name" type="text" name="name" required>
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="email" type="email" name="email" required>
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-field">
+                    <textarea id="message" class="materialize-textarea" name="message" required></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                  <div class="card-action">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Custom JS -->
+  <script src="/js/script.js"></script>
+</body>
+<script>
+	$('form').submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+    url: '/contact',
+    type: 'POST',
+    data: $(this).serialize(),
+    success: function(response) {
+		console.log("sent man" + " "+ response);
+      M.toast({html: response.message});
+      $('form')[0].reset();
+    },
+    error: function(error) {
+      console.error(error);
+      M.toast({html: 'Error sending email'});
+    }
+  });
+});
+
+</script>
+</html>
+<%-  include('layouts/footer') %>

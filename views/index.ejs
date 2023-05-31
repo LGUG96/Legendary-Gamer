@@ -1,0 +1,324 @@
+<%-  include('layouts/header') %>
+<style>
+  body {
+    background: url(/img/yy.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    background-attachment: fixed;
+
+  }
+    .container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+<body class="#212121 grey darken-4">
+    <div class="container">
+        <div class="row">
+            <div class="col s3 hide-on-small-only"></div>
+            <div class="col s12 ">
+                <nav>
+                    <div class="nav-wrapper black">
+                      <a href="/" class="brand-logo left"><img src="/img/logo.jpg" width="250" height="70" alt=""></a>
+                      <ul id="nav-mobile" class="right">
+                        
+                        <!--<li><a href="badges.html">Components</a></li>-->
+                        <!--<li><a href="collapsible.html">JavaScript</a></li>-->
+                        <li>
+                            <div class="input-field">
+                            <form action="/search" method="GET">
+                                <input placeholder="Search here" type="search" id="search-box" name="searchitem">
+                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                              </div>
+                            </li>
+                            <li><button type="submit" class="btn" > search</button>
+                            </form></li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+  <nav>
+    <div class="nav-wrapper black">
+      <ul id="nav-mobile" class="left">
+        <li><button class="btn-small black" onclick="sendAction('action',3)">Action</button></li>
+        <li><button class="btn-small black" onclick="sendAction('adventure',1)" href="/Adventure">Adventure</button></li>
+        <li><button class="btn-small black" onclick="sendAction('arcade',1)" href="/Arcade">Arcade</button></li>
+        <li><button class="btn-small black" onclick="sendAction('fighting',1)" href="/Fighting">Fighting</button></li>
+        <li><button class="btn-small black" onclick="sendAction('horror',1)" href="/Horror">Horror</button></li>
+        <li><button class="btn-small black" onclick="sendAction('puzzle',1)" href="/Puzzle">Puzzle</button></li>
+        <li><button class="btn-small black" onclick="sendAction('racing',1)" href="/Racing">Racing</button></li>
+        <li><button class="btn-small black" onclick="sendAction('rpg',1)" href="/RPG">RPG</button></li>
+        <li><button class="btn-small black" onclick="sendAction('shooter',1)" href="/Shooter">Shooter</button></li>
+        <li><button class="btn-small black" onclick="sendAction('simulation',1)" href="/Simulation">Simulation</button></li>
+        <li><button class="btn-small black" onclick="sendAction('sports',1)" href="/Sports">Sports</button></li>
+        <li><button class="btn-small black" onclick="sendAction('strategy',1)" href="/Strategy">Strategy</button></li>
+       
+      </ul>
+    </div>
+  </nav>
+        
+                  
+                  
+                
+                <div class="col s4">
+                  <div class="card-panel black"><h6 class="white-text"><b>LATEST UPDATE</b></h6></div>
+                  <% sidegames.forEach((row,index)=>{ %>
+                    <div class="row">
+                      <div class="col s12 m12">
+                        <div class="card">
+                          <div class="card-image">
+                           <a href="gamedetails/<%= row.id %>"> <img src="/<%= row.gameimage %> "></a>
+                          </div>
+                         
+                        </div>
+                      </div>
+                    </div>
+                    <% }) %>                 
+
+                </div>
+                <div class="col s8" id="searchResults">
+<% if(allgames !=''){ %> 
+<% allgames.forEach((row,index)=>{ %> 
+<div class="col s12">
+  <div class="card col s6 black">
+    <div class="card-image waves-effect waves-block waves-light">
+    <a href="gamedetails/<%= row.id %> "><img class="responsive-img" src="/<%=row.gameimage%> " height="200" ></a>
+    </div>
+    <div class="card-content">
+    <span class="card-title activator white-text text-darken-4"><%=row.name%> <i class="material-icons right">more_vert</i></span>
+    <p><a href="#"></a></p>
+    
+    </div>
+    <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4"><%=row.name%><i class="material-icons right">close</i></span>
+    <p><%=row.description%> .</p>
+    <a href="gamedetails/<%= row.id %> " class="btn-small black">Download</a>
+    </div>
+    
+    </div> 
+    <div class="card-panel col s6 black">
+      <p class="white-text"><i class="yellow-text"> Genre: </i><%=row.gamecategoryone %> <%=row.gamecategorytwo %> <%=row.gamecategorythree %>
+      <%=row.gamecategoryfour %></p>
+      <p class="white-text"><i class="yellow-text"> Developer: </i><%=row.developer%></p>
+      <p class="white-text"><i class="yellow-text"> Publisher: </i><%=row.publisher%></p>
+      <p class="white-text"><i class="yellow-text"> Release Date: </i><%=row.releasedate%></p>
+      <p class="white-text"><i class="yellow-text"> File Size: </i><%=row.filesize%></p>
+      <p class="white-text"><i class="yellow-text"> Mirrors: </i>  
+    Googledrive Mediafire Mega Megaup Update
+      </p>
+      
+       <script>(function(d,z,s){s.src='https://'+d+'/400/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('agamagcargoan.com',5964937,document.createElement('script'))</script>
+      
+    </div>
+  </div>
+  
+  <% }); %> 
+  <% }else{ %>
+    
+    
+           <% } %>    
+           <div>
+            <ul class="pagination">
+          
+              
+            <% if (page > 1) { %>
+              <li class="waves-effect "><a href="/games?page=<%= page - 1 %>" class="white-text btn black"><i class="material-icons ">chevron_left</i></a></li>
+            <% } %>
+            
+            <% for (let i = 1; i <= pages; i++) { %>
+              <% if (i === page) { %>
+                <span><%= i %></span>
+              <% } else { %>
+                <li class="waves-effect "><a href="/games?page=<%= i %>" class="white-text btn black"><%= i %></a></li>
+              <% } %>
+            <% } %>
+            
+            <% if (page < pages) { %>
+              <li class="waves-effect "> <a href="/games?page=<%= Number(page) + 1 %>" class="white-text btn black"><i class="material-icons ">chevron_right</i></a></li>
+            <% } %>
+          </ul>
+          </div>
+          
+              </div>
+              <div id="catepagi" class="col"></div>    
+            </div>
+              <div class="col s3 hide-on-small-only"></div>
+            
+        </div>
+      
+    </div>
+
+  </body>
+  <script>
+    function sendData(e){
+      const searchResults=document.getElementById('searchResults');
+      //searchResults.innerHTML='<p>Yoooo yo no snitching</p>';
+      fetch('getgames',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({payload: e.value}) 
+      }).then(res =>res.json()).then(data=>{
+        let payload=data.payload;
+        console.log(payload)
+        searchResults.innerHTML='';
+        if(payload.length<1){
+          searchResults.innerHTML='<p>No result bro</p>';
+          return;  
+        }
+        payload.forEach((item,index)=>{
+          if(index>0) searchResults.innerHTML +='<hr>';
+          searchResults.innerHTML +=`
+          
+          <div class="col s12">
+  <div class="card col s6 black">
+    <div class="card-image waves-effect waves-block waves-light">
+    <a href="gamedetails/${item._id} "><img class="responsive-img" src="/${item.gameimage} " height="200" ></a>
+    </div>
+    <div class="card-content">
+    <span class="card-title activator white-text text-darken-4">${item.name} <i class="material-icons right">more_vert</i></span>
+    <p><a href="#"></a></p>
+    
+    </div>
+    <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">${item.name}<i class="material-icons right">close</i></span>
+    <p>${item.description} .</p>
+    <a href="gamedetails/${ item._id } " class="btn-small black">Download</a>
+    </div>
+    
+    </div> 
+    <div class="card-panel col s6 black">
+      <p class="white-text"><i class="yellow-text"> Genre: </i>${item.gamecategoryone } ${item.gamecategorytwo } ${item.gamecategorythree }
+        ${item.gamecategoryfour }</p>
+      <p class="white-text"><i class="yellow-text"> Developer: </i>${item.developer}</p>
+      <p class="white-text"><i class="yellow-text"> Publisher: </i>${item.publisher}</p>
+      <p class="white-text"><i class="yellow-text"> Release Date: </i>${item.releasedate}</p>
+      <p class="white-text"><i class="yellow-text"> File Size: </i>${item.filesize}</p>
+      <p class="white-text"><i class="yellow-text"> Mirrors: </i>  
+    Googledrive Mediafire Mega Megaup Torrent
+      </p>
+      
+    </div>
+    <div class="card-panel col s12 black white-text"><p>${item.description.substring(0, 120)} ...<a 
+      href="gamedetails/${item._id} ">more</a></p></div>
+  </div> `;
+        });
+        return;
+      });
+    }
+
+//action
+function sendAction(parameter, pageNumber){
+      const searchResults=document.getElementById('searchResults');
+      const catepagi=document.getElementById('catepagi');
+      //searchResults.innerHTML='<p>Yoooo yo no snitching</p>';
+      /*fetch(parameter,{*/
+        fetch('proto',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({payload: parameter,page: pageNumber}) 
+      }).then(res =>res.json()).then(data=>{
+        let payload=data.payload;
+        let pages= data.pages;
+        let page= data.page;
+        catepagi.innerHTML = `
+<ul class="pagination">
+  ${page > 1 ? `
+    <li class="waves-effect ">
+      <button class=" btn black" onclick="sendAction('${parameter}',${page - 1})">
+      
+        <i class="material-icons ">chevron_left</i>
+      </button>
+    </li>
+  ` : ''}
+  ${Array(pages)
+    .fill(0)
+    .map((_, i) => {
+      const index = i + 1;
+      return index === page ? `<span>${index}</span>` : `
+        <li class="waves-effect ">
+          <button class="white-text btn black" onclick="sendAction('${parameter}',${index})">
+      
+      <a class="btn white-text ">${index}</a>
+    </button>
+        </li>
+      `;
+    })
+    .join('')}
+  
+  ${page < pages ? `
+    <li class="waves-effect ">
+      
+      <button class=" btn black" onclick="sendAction('${parameter}',${Number(page) + 1})">
+        <i class="material-icons ">chevron_right</i>
+      </button>
+    </li>
+  ` : ''}
+</ul>`;
+
+       // console.log(payload)
+        searchResults.innerHTML='';
+        if(payload.length<1){
+          searchResults.innerHTML='<p>No result bro</p>';
+          return;  
+        }
+        payload.forEach((item,index)=>{
+          if(index>0) searchResults.innerHTML +='<hr>';
+          searchResults.innerHTML +=`
+          <div class="col s12">
+  <div class="card col s6 black">
+    <div class="card-image waves-effect waves-block waves-light">
+    <a href="gamedetails/${item._id} "><img class="" src="/${item.gameimage} " height="200" ></a>
+    </div>
+    <div class="card-content">
+    <span class="card-title activator white-text text-darken-4">${item.name} <i class="material-icons right">more_vert</i></span>
+    <p><a href="#"></a></p>
+    
+    </div>
+    <div class="card-reveal">
+    <span class="card-title grey-text text-darken-4">${item.name}<i class="material-icons right">close</i></span>
+    <p>${item.description} .</p>
+    <a href="gamedetails/${ item._id } " class="btn-small black">Download</a>
+    </div>
+    
+    </div> 
+    <div class="card-panel col s6 black">
+      <p class="white-text"><i class="yellow-text"> Genre: </i>${item.gamecategoryone } ${item.gamecategorytwo } ${item.gamecategorythree }
+        ${item.gamecategoryfour }</p>
+      <p class="white-text"><i class="yellow-text"> Developer: </i>${item.developer}</p>
+      <p class="white-text"><i class="yellow-text"> Publisher: </i>${item.publisher}</p>
+      <p class="white-text"><i class="yellow-text"> Release Date: </i>${item.releasedate}</p>
+      <p class="white-text"><i class="yellow-text"> File Size: </i>${item.filesize}</p>
+      <p class="white-text"><i class="yellow-text"> Mirrors: </i>  
+    Googledrive Mediafire Mega Megaup Torrent
+      </p>
+      
+    </div>
+    <div class="card-panel col s12 black white-text"><p>${item.description.substring(0, 120)} ...<a 
+      href="gamedetails/${item._id} ">more</a></p></div>
+  </div> `;
+        });
+        return;
+      });
+    }
+
+  </script>
+<%- include('layouts/footer') %>

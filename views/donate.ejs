@@ -1,0 +1,47 @@
+<%-  include('layouts/header') %>
+<!DOCTYPE html>
+<html>
+    <style>
+        .card {
+          margin-top: 3rem;
+          max-width: 500px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        
+        textarea.materialize-textarea {
+          height: 200px;
+        }
+        input[type=text], input[type=email], textarea {
+          color: white;
+        }
+        
+        
+            </style>
+  <head>
+    <title>Donate to My Wallet</title>
+  </head>
+  <body class="grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 offset-m3">
+          <div class="card black">
+            <div class="card-content white-text">
+      <form action="/donate" method="get">
+        <div class="input-field">
+          <input type="text" name="amount" required>
+          <label for="amount">Amount (USD)</label>
+        </div>
+        <p>Enter your email address:</p>
+        <div class="input-field">
+          <input type="email" name="email" required>
+          <label for="email">Email Address</label>
+        </div>
+        <button class="btn" type="submit">Donate</button>
+      </form>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    <%-  include('layouts/footer') %>
